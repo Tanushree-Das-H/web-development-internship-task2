@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <link rel="stylesheet" href="internship_task1.css">
+    <style>
+        P{
+            color: rgb(20, 82, 197);
+            background-color: rgb(230, 221, 225);
+        }
+        ul{
+            color: rgb(20, 82, 197);
+            background-color: rgb(230, 221, 225);
+        }
+
+        @media screen (min-width:100px) and (max-width : 800px) {
+            #p-1{
+                display: block;
+
+            }
+            
+        }
+
+        @media screen (min-width:100px) and (max-width : 800px) {
+            #ul-1{
+                display: block;
+
+            }
+            
+        }
+
+    </style> 
+</head>
+<body style="background-color: rgb(238, 223, 223);"">
+    <div class="p" id="p-1">
+    <h1 style="color: darkmagenta;" align = "center">HTML</h1>
+
+    <P>HTML, or Hypertext Markup Language, is the standard language for creating web pages. It defines the structure and content of web documents using tags and attributes to format text, embed images, create links, and build interactive elements, facilitating communication between web browsers and servers.</P></div>
+
+    <div class="p" id="ul-1">
+    <ul>
+        <li><b>html:</b> html tag is the root HTML element, which wraps the entire HTML code written for a web page.</html> </li>
+
+            <li><b>head:</b> head tag consists of the page metadata, title of the web page, base URLs, CSS code for styling and links to styling sheets, JavaScript code, and other external resources.</li>
+            
+            <li><b>body:</b> This tag consists of the actual content that will be displayed on a web page. The content can have text, paragraphs, images, tables, website links, other web pages, etc.</li>
+    </ul></div>
+
+    <!--<h2>Structure of HTML</h2> -->
+    
+    <table border="1" height = "400" width = "300" style = "border-collapse: collapse;">
+    <tr>
+        <th style="color: red;"> html (html starting tag) </th>
+    </tr>
+    <tr>
+        <th style="color: blue;"> head(head starting tag) </th>
+    </tr>
+    <tr>
+        <th style="color: green;">title(title starting tag)</th>
+    </tr>
+        <th style="color: green;">/title(title closing tag)</th>
+    <tr>
+        <th style="color: blue;">/head(head closing tag)</th>
+    </tr>
+    <tr>
+        <th style="color: palevioletred;">body(body starting tag)</th>
+    </tr>
+    <tr>
+        <th>content</th>
+    </tr>
+    <tr>
+        <th style="color: palevioletred;">/body(body closing tag)</th>
+    </tr>
+    <tr>
+        <th style="color: red;">/html(html closing tag)</th>
+    </tr>
+    
+</table>
+    
+</body>
+</html>
